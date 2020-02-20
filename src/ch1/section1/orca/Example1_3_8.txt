@@ -1,0 +1,21 @@
+Operation    |    arr.length   |   N   |
+----------------------------------------
+push("it")   |        1        |   1   |
+push("was")  |      1 -> 2     |   2   |
+pop()        |        2        |   1   |
+push("the")  |        2        |   2   |
+push("best") |      2 -> 4     |   3   |
+pop()        |        4        |   2   |
+push("of")   |        4        |   3   |
+push("times")|        4        |   4   |
+pop()        |        4        |   3   |
+pop()        |        4        |   2   |
+pop()        |      4 -> 1     |   1   |
+push("it")   |      1 -> 2     |   2   |
+push("was")  |      2 -> 4     |   3   |
+pop()        |        4        |   2   |
+push("the")  |        4        |   3   |
+pop()        |        4        |   2   |
+pop()        |        1        |   1   |
+
+최종 배열의 크기는 1이 된다.
