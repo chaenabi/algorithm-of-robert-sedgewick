@@ -11,7 +11,7 @@ public class example {
 
         for(int i = 0 ; i < splitText.length; i++) {
             if (!splitText[i].equals("-")) {
-                    stringFixedStack.push(splitText[i]);
+                stringFixedStack.push(splitText[i]);
             } else {
                 if(!stringFixedStack.isEmpty()) System.out.println(stringFixedStack.pop() + " ");
                 System.out.println("peek(): "+stringFixedStack.peek());
