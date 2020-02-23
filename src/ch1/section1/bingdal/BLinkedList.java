@@ -1,6 +1,7 @@
 package ch1.section1.bingdal;
 
-import javax.xml.soap.Node;
+import ch1.section1.bingdal.exam.example;
+
 import java.util.Iterator;
 
 // Stack implementation
@@ -12,7 +13,7 @@ public class BLinkedList {
 
 
         BLinkedListImpl<String> bLinkedList = new BLinkedListImpl<>();
-        String text = example.text;
+        String text = "to be or not to - be - - that - - - is";
         String[] splitText = text.split(" ");
 
         for (int i = 0; i < splitText.length; i++) {
