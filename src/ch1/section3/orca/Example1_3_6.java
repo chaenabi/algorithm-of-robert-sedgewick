@@ -1,4 +1,4 @@
-package ch1.section1.orca;
+package ch1.section3.orca;
 
 public class Example1_3_6 {
     public static void main(String[] args) {

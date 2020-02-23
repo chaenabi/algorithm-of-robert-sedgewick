@@ -1,6 +1,4 @@
-package ch1.section1.orca;
-
-import edu.princeton.cs.algs4.Stack;
+package ch1.section3.orca;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

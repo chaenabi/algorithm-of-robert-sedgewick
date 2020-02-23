@@ -1,4 +1,4 @@
-package ch1.section1.orca;
+package ch1.section3.orca;
 
 public class FixedCapacityGenericMain {
     public static void main(String[] args) {
