@@ -18,6 +18,5 @@ public class BQuickFindApply {
             System.out.println(p + " "+q);
         }
         System.out.println(bQuickFind.getCount() + " components");
-
     }
 }

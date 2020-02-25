@@ -21,6 +21,5 @@ public class BQuickUnion extends BUF {
         id[i] = j;
 
         count--;
-
     }
 }

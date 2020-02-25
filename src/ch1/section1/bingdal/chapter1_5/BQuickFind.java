@@ -23,5 +23,4 @@ public class BQuickFind extends BUF {
         }
         count--;
     }
-
 }

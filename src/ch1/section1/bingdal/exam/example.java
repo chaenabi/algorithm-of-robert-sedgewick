@@ -18,7 +18,7 @@ public class example {
                 System.out.println("size(): "+stringFixedStack.getSize());
             }
         }
-//        System.out.println(stringFixedStack.getSize());
+        System.out.println(stringFixedStack.getSize());
 
         Iterator<String> iterator = stringFixedStack.iterator();
         while(iterator.hasNext())

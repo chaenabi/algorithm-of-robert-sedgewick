@@ -49,7 +49,6 @@ public class ResizingArrayQueueOfStrings<T>{
         return size == items.length;
     }
 
-
     public boolean isEmpty() {
         return size == 0;
     }

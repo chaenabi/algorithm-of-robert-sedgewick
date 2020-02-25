@@ -17,7 +17,6 @@ public class BQuickUnionApply {
             System.out.println(p + " "+q);
         }
         System.out.println(bQuickUnion.getCount() + " components");
-
     }
 }
 

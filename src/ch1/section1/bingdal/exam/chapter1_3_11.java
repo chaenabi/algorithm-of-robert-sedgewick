@@ -18,7 +18,6 @@ public class chapter1_3_11 {
         result = getResult(trimmedSource, ops, result);
         System.out.println(result);
 
-
     }
 
     private static double getResult(String[] trimmedSource, FixedStack<String> ops, double result) {

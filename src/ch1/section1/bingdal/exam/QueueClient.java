@@ -8,7 +8,6 @@ public class QueueClient {
 
     public static void main(String[] args) {
 
-
         ResizingArrayQueue<String> arrayQueue = new ResizingArrayQueue<>();
         StringBuilder stringBuilder = new StringBuilder();
         Scanner scanner = new Scanner(System.in);

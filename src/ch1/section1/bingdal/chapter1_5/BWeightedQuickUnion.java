@@ -33,7 +33,6 @@ public class BWeightedQuickUnion  extends BUF {
         }
         count--;
     }
-
     int getComponentSize(int p) {
         int i = find(p);
         return sz[i];

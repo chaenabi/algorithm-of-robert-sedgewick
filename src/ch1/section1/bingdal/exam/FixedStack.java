@@ -15,8 +15,7 @@ class FixedStack<Item>{
         if(isFull()) resize(array.length*2);
         this.array[size++] = item;
     }
-
-
+    
 
     public Item pop() {
         array[size] = null;

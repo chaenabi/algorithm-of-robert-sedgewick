@@ -11,7 +11,6 @@ class BQueueImpl<T> {
         T item;
         Node next;
     }
-
     public boolean isEmpty() {
         return size == 0;
     }

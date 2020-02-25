@@ -19,7 +19,6 @@ public class BWeightedQuickUnionApply {
         }
         System.out.println(bWeightedQuickUnion.getCount() + " components");
 
-
     }
 
 

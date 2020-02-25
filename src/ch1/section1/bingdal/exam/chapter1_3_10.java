@@ -37,7 +37,6 @@ public class chapter1_3_10 {
                         stringBuilder.append(ops.pop() +" ");
                         isPopped = false;
                     }
-
             }
         }
         while(!ops.isEmpty()) {
