@@ -11,7 +11,7 @@ public class BLinkedList {
     public static void main(String[] args) {
 
         BLinkedListImpl<String> bLinkedList = new BLinkedListImpl<>();
-        String text = example.text;
+        String text = "to be or not to - be - - that - - - is";
         String[] splitText = text.split(" ");
 
         for (int i = 0; i < splitText.length; i++) {
