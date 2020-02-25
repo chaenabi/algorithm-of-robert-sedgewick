@@ -1,23 +1,27 @@
-package ch1.section1.orca;
+package ch1.section3.orca;
 
-public class FixedCapacityStackOfStringMain {
+public class QueueMain {
     public static void main(String[] args) {
         String text = "to be or not to - be - - that - - - is";
         String[] strArr = text.split(" ");
 
-        FixedCapacityStackOfStrings stack = new FixedCapacityStackOfStrings(100);
+        Queue<String> queue = new Queue<>();
 
         for (int i = 0; i < strArr.length; i++) {
             switch(strArr[i]) {
                 case "-":
-                    if (!stack.isEmpty()) System.out.print(stack.pop() + " ");
+                    if (!queue.isEmpty()) System.out.print(queue.dequeue() + " ");
                     break;
                 default :
-                    stack.push(strArr[i]);
+                    queue.enqueue(strArr[i]);
                     break;
             }
         }
-        System.out.print("(" + stack.size() + " left on stack)");
+        System.out.println("(" + queue.size() + " left on queue)");
+
+        for (String item : queue) {
+            System.out.println(item);
+        }
         System.out.println();
     }
 }
