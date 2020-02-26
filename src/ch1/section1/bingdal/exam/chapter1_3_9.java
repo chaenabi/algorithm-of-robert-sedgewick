@@ -3,7 +3,6 @@ package ch1.section1.bingdal.exam;
 // 표준 입력으로부터 좌측 괄호가 빠진 수식을 입력받아, 이항 연산 단위로 괄호 쌍에 맞게
 // 좌측 괄호가 추가된 동등한 수식을 출력하는 프로그램을 작성하세요.
 
-import com.sun.tools.corba.se.idl.StringGen;
 
 import java.util.Stack;
 
