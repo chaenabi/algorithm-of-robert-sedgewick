@@ -1,5 +1,7 @@
 package ch2.section1.webma;
 
+import ch2.section2.webma.Merge;
+import ch2.section2.webma.MergeBU;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
 
@@ -10,7 +12,8 @@ public class SortCompare {
         else if (alg.equals("InsertionWithoutExch")) Insertion.sortWithoutExch(a);
         else if (alg.equals("Selection")) Selection.sort(a);
         else if (alg.equals("Shell")) Shell.sort(a);
-        else if (alg.equals("Merge")) { }
+        else if (alg.equals("Merge")) Merge.sort(a);
+        else if (alg.equals("MergeBU")) MergeBU.sort(a);
         else if (alg.equals("Quick")) { }
         else if (alg.equals("Heap")) { }
         return timer.elapsedTime();
