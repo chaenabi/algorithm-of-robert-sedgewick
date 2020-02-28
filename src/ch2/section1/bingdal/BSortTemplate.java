@@ -2,7 +2,8 @@ package ch2.section1.bingdal;
 
 public abstract class BSortTemplate {
     public static String[] text = {"E", "X", "A", "M", "P", "L", "E"};
-    public abstract void sort(Comparable[] a);
+
+    public void sort(Comparable[] a) {}
 
     protected static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
