@@ -1,4 +1,4 @@
-package ch2.section3;
+package ch2.section3.orca;
 
 public class QuickMain {
     public static void main(String[] args) {

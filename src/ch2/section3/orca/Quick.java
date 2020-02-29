@@ -1,4 +1,4 @@
-package ch2.section3;
+package ch2.section3.orca;
 
 import edu.princeton.cs.algs4.StdRandom;
 
