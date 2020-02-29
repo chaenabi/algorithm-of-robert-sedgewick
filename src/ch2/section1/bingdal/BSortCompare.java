@@ -3,6 +3,7 @@ package ch2.section1.bingdal;
 import ch2.section2.bingdal.BBottomUpMerge;
 import ch2.section2.bingdal.BTopDownMerge;
 import ch2.section3.bingdal.BQuickSort;
+import ch2.section4.bingdal.BMaxPriorityQueue;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
@@ -16,7 +17,9 @@ public class BSortCompare {
         BTopDownMerge bTopDownMerge = new BTopDownMerge();
         BBottomUpMerge bBottomUpMerge = new BBottomUpMerge();
         BQuickSort bQuickSort = new BQuickSort();
+
         Stopwatch timer = new Stopwatch();
+
         if (alg.equals("Insertion")) bInsertion.sort(a);
         if (alg.equals("Selection")) bSelection.sort(a);
         if (alg.equals("Shell")) bShell.sort(a);
