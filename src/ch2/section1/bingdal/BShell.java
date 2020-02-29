@@ -3,7 +3,6 @@ package ch2.section1.bingdal;
 public class BShell extends BSortTemplate {
 
 
-    @Override
     public void sort(Comparable[] a) {
         int N = a.length;
         int h = 1;
