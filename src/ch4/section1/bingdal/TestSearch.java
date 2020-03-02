@@ -1,14 +1,23 @@
 package ch4.section1.bingdal;
 
-import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.In;
+
 
 public class TestSearch {
+        public static void main(String[] args) {
+            Graph G = new Graph(new In("tinyG.txt"));
+            int s = 0;
+            BDFS search = new BDFS(G, s);
 
-    public static void main(String[] args) {
-        int[] source = {0, 0, 1, 2, 3, 4, 5, 6};
-        Graph graph = new Graph(source.length);
-        BDFS bdfs = new BDFS(graph, 0);
-        System.out.println(bdfs.count());
+            for (int v = 0; v < G.V(); v++) {
+                if (search.marked(v))
+                    System.out.print(v + " ");
+            }
+            System.out.println();
 
-    }
+            if (search.count() != G.V())
+                System.out.print("NOT ");
+            System.out.println("connected");
+        }
+
 }
