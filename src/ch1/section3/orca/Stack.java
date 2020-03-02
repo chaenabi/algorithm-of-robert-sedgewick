@@ -7,6 +7,13 @@ public class Stack<Item> implements Iterable<Item> {
     private Node first;
     private int size;
 
+
+    private class Node {
+        Item item;
+        Node next;
+    }
+
+
     public void push(Item item) {
         Node oldFirst = first;
         first = new Node();
@@ -37,11 +44,6 @@ public class Stack<Item> implements Iterable<Item> {
     @Override
     public Iterator<Item> iterator() {
         return new StackIterator(first);
-    }
-
-    private class Node {
-        Item item;
-        Node next;
     }
 
     private class StackIterator implements Iterator<Item> {
