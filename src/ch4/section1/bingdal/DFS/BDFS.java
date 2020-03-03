@@ -7,8 +7,6 @@ public class BDFS {
     private boolean[] marked;
     private int count;
 
-
-
     public BDFS(Graph G, int s) {
         marked = new boolean[G.V()];
         dfs(G, s);

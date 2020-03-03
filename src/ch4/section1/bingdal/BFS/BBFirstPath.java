@@ -2,8 +2,7 @@ package ch4.section1.bingdal.BFS;
 
 import ch1.section3.orca.Queue;
 import ch4.section1.bingdal.Graph;
-
-import java.util.Stack;
+import edu.princeton.cs.algs4.Stack;
 
 class BBFirstPath {
     private boolean[] marked; //이 정점으로의 최단 경로가 찾아 졌는가?

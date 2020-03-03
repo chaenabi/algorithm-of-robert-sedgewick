@@ -1,13 +1,12 @@
 package ch4.section1.bingdal.DFS;
 
-import ch4.section1.bingdal.DFS.BDFirstPath;
 import ch4.section1.bingdal.Graph;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
-
 public class BDFirstPathTestSearch {
         public static void main(String[] args) {
+
             Graph G = new Graph(new In("tinyG.txt"));
             int s = Integer.parseInt("0");
             BDFirstPath search = new BDFirstPath(G, s);

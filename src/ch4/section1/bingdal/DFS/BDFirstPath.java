@@ -1,8 +1,7 @@
 package ch4.section1.bingdal.DFS;
 
 import ch4.section1.bingdal.Graph;
-
-import java.util.Stack;
+import edu.princeton.cs.algs4.Stack;
 
 class BDFirstPath {
 
