@@ -1,8 +1,10 @@
-package ch4.section1.bingdal;
+package ch4.section1.bingdal.DFS;
+
+import ch4.section1.bingdal.Graph;
 
 import java.util.Stack;
 
-public class BDFPath {
+class BDFPath {
 
     private boolean[] marked; // dfs()가 이 해당 정점에 호출된 것이 있는가?
     private int[] edgeTo;  // 해당 정점으로 가는 경로의 마지막 정점

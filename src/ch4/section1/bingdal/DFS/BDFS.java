@@ -1,4 +1,6 @@
-package ch4.section1.bingdal;
+package ch4.section1.bingdal.DFS;
+
+import ch4.section1.bingdal.Graph;
 
 public class BDFS {
 
