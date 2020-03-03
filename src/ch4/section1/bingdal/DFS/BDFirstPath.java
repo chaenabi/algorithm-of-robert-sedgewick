@@ -4,13 +4,13 @@ import ch4.section1.bingdal.Graph;
 
 import java.util.Stack;
 
-class BDFPath {
+class BDFirstPath {
 
     private boolean[] marked; // dfs()가 이 해당 정점에 호출된 것이 있는가?
     private int[] edgeTo;  // 해당 정점으로 가는 경로의 마지막 정점
     private final int s;    // 원점
 
-    public BDFPath(Graph G, int s) {
+    public BDFirstPath(Graph G, int s) {
         marked = new boolean[G.V()];
         edgeTo = new int[G.V()];
         this.s = s;

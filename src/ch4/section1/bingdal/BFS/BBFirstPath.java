@@ -5,12 +5,12 @@ import ch4.section1.bingdal.Graph;
 
 import java.util.Stack;
 
-class BBFPath {
+class BBFirstPath {
     private boolean[] marked; //이 정점으로의 최단 경로가 찾아 졌는가?
     private int[] edgeTo; // 이정점으로의 경로에서 마지막 정점
     private final int s;  // 원점
 
-    public BBFPath(Graph G, int s) {
+    public BBFirstPath(Graph G, int s) {
         marked = new boolean[G.V()]; // V는 정점의 갯수
         edgeTo = new int[G.V()];
         this.s = s;
