@@ -21,7 +21,7 @@ public class Section1_1 {
     }
 
     static void printTable(int n,int i) {
-        if(i == 10) return;
+        if(i >= 10 || i <= 0) return;
         System.out.printf("%d * %d = %d\n", n, i, (n*(i) ));
 
         printTable(n, i+1);
